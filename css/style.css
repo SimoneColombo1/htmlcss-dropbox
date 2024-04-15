@@ -5,10 +5,15 @@
     
 }
  
+header{
+    background-color:#b4d0e7;
+}
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
 }
 
 nav section{
@@ -38,3 +43,42 @@ nav button{
     border: 0rem;
 }
 
+.contenitore-1{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#jumbo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 3.8rem;
+}
+
+#jumbo button{
+    height: 2rem;
+    width: 10rem;
+    
+
+}
+#jumbo p{
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+#jumbo div{
+    display: flex;
+    flex-direction: row;
+}
+
+#jumbo div span{
+    padding-left: 30rem;
+}
+
+.fa-solid{
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
