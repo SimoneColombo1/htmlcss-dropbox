@@ -6,14 +6,17 @@
     <title>Dropbox</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css "> 
-    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
        <!--Navbar-->
         <nav>
            <section>
-     <p>LOGO</p>
+     <img src="./img/logo-small.png" alt="logo dropbox" class="logo">
             <ul><li>
                 Perchè Dropbox
                     </li></ul>
@@ -27,10 +30,10 @@
               </section>
                <section>
                 <ul>
-                    <li>supporto</li>
+                    <li>Supporto</li>
                 </ul>
                <ul> 
-                <li>contatta l'ufficio vendite</li>
+                <li>Contatta l'ufficio vendite</li>
             </ul>
                 <ul> 
                     <li>Accedi</li>
@@ -41,14 +44,14 @@
           <section class="contenitore-1">      <!--Jumbo-->
             <section id="jumbo">
                     
-                    <h1> ipsum dolor sit amet consectetur adipisicing elit. Molestiae nisi perferendis </h1>
+                    <h1> Tutto ciò che ti serve per il lavoro, in unico posto </h1>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptas ex ipsum dignissimos quia beatae dolorem ea tempore possimus suscipit, quidem sed quos, molestiae enim blanditiis voluptatibus. Inventore, quis temporibus?</p>
-                        <span>IMG</span>
+                        <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox buisness è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente. </p>
+                        
                     </div>
-                    
+                    <img src="./img/jumbo.png" alt="jumbo">
                    
-                    </div>
+                    
                     <button class="button-blue">Inizia la prova gratuita</button>
                     
                     <p>annulla in qualsiasi momento</p>
@@ -60,7 +63,7 @@
             </header>
     <main>
         <section class="contenitore-2">
-              <h2>Trova il piano buisness che fa per te</h2>
+              <h2 id="divisore">Trova il piano buisness che fa per te</h2>
              
               <span class="check">
                 <input type="radio" name="1"> Fatturazione mensile</span>
@@ -69,8 +72,9 @@
               </span>
               <section class="tabelle">
               <div class="piani">
-               <p>singolo</p>
-                <hr>
+                <span class="border"><p><i class="fa-solid fa-user"></i> Singolo</p></span>
+               
+                
                <ul>
                 
                
@@ -78,20 +82,20 @@
                     <h3>Professional</h3>
                 </li>
                 <div class="contenitore-lista">
-                   <li>12
+                   <li> <strong>&euro;12.00</strong>
 
                    </li>
                    <li class="gray">
                     /mese</li>
                 </div> 
                 <li>
-                    1 utente
+                   <span><i class="fa-solid fa-user"></i></span>  1 utente
                 </li>
                 <li>
-                    Lorem ipsum dolor 
+                    <span><i class="fa-solid fa-folder"></i></span>  5 TB di spazio di archiviazione sicuro
                 </li>
-                <li>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore inventore, veritatis fuga 
+                <li >
+                    <span><i class="fa-solid fa-share-nodes"></i> </span> Funzioni di produttività premium e condivisione file semplice e sicura
                 </li>
                 <li>
                     <button class="button-blue" id="bottone-lista">
@@ -105,118 +109,136 @@
                     <h4>punti salienti del piano</h4>
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   <span><i class="fa-solid fa-check" style="color:#065cff ;"></i></span> Invia file fino a 100GB con dropbox transfert
                 </li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                
+                <li> <span><i class="fa-solid fa-check" style="color:#065cff ;"></i></span> offline su dispositivi mobili</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
                </ul>
 
              
 
             </div>
+            
+            
             <div class="piani">
-                <p>singolo</p>
-                 <hr>
-                <ul>
+                <span class="border"> <p><i class="fa-solid fa-users"></i>  Team</p></span>
                  
-                
+                  
+                 <ul>
+                  
+                 
+                   <li>
+                      <h3>Advanced</h3>
+                  </li>
+                  <div class="contenitore-lista">
+                     <li> <strong>&euro;18.00</strong>
+  
+                     </li>
+                     <li class="gray">
+                      /utente/mese</li>
+                  </div> 
                   <li>
-                     <h3>Professional</h3>
-                 </li>
-                 <div class="contenitore-lista">
-                    <li>12
- 
-                    </li>
-                    <li class="gray">
-                     /mese</li>
-                 </div> 
-                 <li>
-                     1 utente
-                 </li>
-                 <li>
-                     Lorem ipsum dolor 
-                 </li>
-                 <li>
-                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore inventore, veritatis fuga 
-                 </li>
-                 <li>
-                     <button class="button-blue" id="bottone-lista">
-                          Prova gratis per 30 giorni
-                     </button>
-                 </li>
-                 <li> oppure <a href="">acquista ora</a>
-                 </li>
-                  <li><span class="divisore-lista"><hr></span></li>
-                 <li>
-                     <h4>punti salienti del piano</h4>
-                 </li>
-                 <li>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 </li>
-                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                 
-                </ul>
- 
-              
- 
-             </div>
-             <div class="piani">
-                <p>singolo</p>
-                 <hr>
-                <ul>
-                 
-                
+                     <span><i class="fa-solid fa-users"></i></i></span>  3 o più utenti
+                  </li>
                   <li>
-                     <h3>Professional</h3>
-                 </li>
-                 <div class="contenitore-lista">
-                    <li>12
- 
-                    </li>
-                    <li class="gray">
-                     /mese</li>
-                 </div> 
-                 <li>
-                     1 utente
-                 </li>
-                 <li>
-                     Lorem ipsum dolor 
-                 </li>
-                 <li>
-                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore inventore, veritatis fuga 
-                 </li>
-                 <li>
-                     <button class="button-blue" id="bottone-lista">
-                          Prova gratis per 30 giorni
-                     </button>
-                 </li>
-                 <li> oppure <a href="">acquista ora</a>
-                 </li>
-                  <li><span class="divisore-lista"><hr></span></li>
-                 <li>
-                     <h4>punti salienti del piano</h4>
-                 </li>
-                 <li>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 </li>
-                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                      <span><i class="fa-solid fa-folder"></i></span>  Tutto lo spazio di cui ha bisogno il tuo team
+                  </li>
+                  <li >
+                      <span><i class="fa-solid fa-share-nodes"></i> </span>  Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team
+                  </li>
+                  <li>
+                      <button class="button-blue" id="bottone-lista">
+                           Prova gratis per 30 giorni
+                      </button>
+                  </li>
+                  <li> oppure <a href="">acquista ora</a>
+                  </li>
+                   <li><span class="divisore-lista"><hr></span></li>
+                  <li>
+                      <h4>punti salienti del piano</h4>
+                  </li>
+                  <li>
+                      <span><i class="fa-solid fa-check" style="color:#065cff ;"></i></span>Nessun limite di spazio per i file
+                  </li>
+                  <li><span><i class="fa-solid fa-check" style="color:#065cff ;"></i></span>Cartelle offline su dispositivi mobili</li>
+                  <li><span><i class="fa-solid fa-check" style="color:#065cff ;"></i></span>Risparmio del 50&#37; rispetto alle iscrizioni singole</li>
+                  <li><span><i class="fa-solid fa-check" style="color:#065cff ;"></i></span>Possibilità di inserire nuovi membri del team</li>
+                 </ul>
+  
+               
+  
+              </div>
+              <div class="piani">
+                <span class="border"><p><i class="fa-solid fa-building"></i> Azienda</p></span>
                  
-                </ul>
- 
+                  
+                 <ul>
+                  
+                 
+                   <li>
+                      <h3>Enterprise</h3>
+                  </li>
+                  <div class="contenitore-lista">
+                     <li> <strong>Contattaci</strong>
+  
+                     </li>
+                     <li class="gray">
+                      -</li>
+                  </div> 
+                  <li>
+                     <span><i class="fa-solid fa-user"></i></span>  10 o più utenti
+                  </li>
+                  <li>
+                      <span><i class="fa-solid fa-folder"></i></span>  Soluzioni personalizzabili per la tua azienda
+                  </li>
+                  <li >
+                      <span><i class="fa-solid fa-share-nodes"></i> </span> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala
+                  </li>
+                  <li>
+                      <button class="button-blue" id="bottone-lista">
+                           Prova gratis per 30 giorni
+                      </button>
+                  </li>
+                  <li> oppure <a href="">acquista ora</a>
+                  </li>
+                   <li><span class="divisore-lista"><hr></span></li>
+                  <li>
+                      <h4>punti salienti del piano</h4>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-check" style="color:#065cff ;"></i></span>Cartelle offline su dispositivi mobili.
+                  </li>
+                  <li><span><i class="fa-solid fa-check" style="color:#065cff ;"></i></span>Servizio assistenza 24h</li>
+                  <li><span><i class="fa-solid fa-check" style="color:#065cff ;"></i></span>Possibilità di personalizzazione totale</li>
+                  <li></li>
+                  <li>
+                </li>
+                  
+                  
+                  
+                  
+                 </ul>
+  
+               
+  
               </div>
              </section>
              </div>
             <section class="tabella-2">
             
-                <p> Team </p>
-               <hr>
+                <span><p><i class="fa-solid fa-building"></i> Azienda</p></span>
              <div>
+                
                   <ul>
 
                   
                   <li><h3> Enterprise</h3> </li> 
-                       <li><h4>Lorem ipsum dolor sit  </h4></li>
-                       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facere aperiam ipsa consectetur doloremque laudantium?</li>
+                       <li><h4>Contatta l'ufficio vendite per i prezzi </h4></li>
+                       <li>soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala </li>
                     </ul>
                        
                        <button class="button-blue">Contatta l'ufficio vendite</button>
@@ -224,10 +246,10 @@
             </section>
            
           <section class="partner">
-            <div id="img"> IMG</div>
+            <img src="./img/partner.png" alt="due persone che parlano" >
             <div>
-                <h2>Lorem ipsum dolor, sit amet consectetur </h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis aliquid, dolore omnis similique quis reiciendis eius nulla in exercitationem adipisci magni nam quisquam. Reprehenderit harum est similique tempore at cupiditate.</p>
+                <h3>Entra in contatto con un partner dropbox  </h3>
+            <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione gestione e supporto continui</p>
             <button class="button-white">Trova un partner</button>
         </div>
           </section>

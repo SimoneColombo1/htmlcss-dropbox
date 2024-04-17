@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
     
 }
  
@@ -36,6 +37,13 @@ nav button{
     width: 4rem;
    
 }
+
+.logo{
+    width: 6.3rem;
+    height: 1.5rem;
+    margin: 0.8rem 0rem 0rem 1rem;
+}
+
 .button-blue{
     background-color:#0061ff ;
     color: white;
@@ -61,35 +69,60 @@ h1{
 }
 
 #jumbo button{
-    height: 2rem;
+    height: 2.5rem;
     width: 10rem;
     
 
 }
 #jumbo p{
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 2rem 6rem 2rem 0rem;
+    
+    font-size: 1.3rem;
 }
 
 #jumbo div{
     display: flex;
     flex-direction: row;
+    width: 40rem;
 }
 
-#jumbo div span{
-    padding-left: 30rem;
+
+#jumbo img{
+    display: flex;
+     
+    width: 50rem;
+     height: 30rem;
+     position: absolute;
+     left: 60rem;
+     top: 16rem ;
+     
+
 }
 
-.fa-solid{
+#divisore{
+    padding-top: 8rem;
+    
+}
+.fa-arrow-down{
     font-size: 4rem;
     padding-bottom: 2rem;
+}
+
+.piani hr{
+    color: #e9e9ea;
 }
 
 .piani{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: #606060 solid 1px ;
-    width: 15rem;
+    border: #d3d3d4 solid 1px  ;
+    margin-right: 4rem;
+    width: 17rem;
+    font-size: 0.9rem;
+    padding-bottom: 4rem;
+    
+    
 
 }
 .piani p{
@@ -98,33 +131,64 @@ h1{
 }
 .piani h3{
     font-size: 1.8rem;
-    padding: 2rem 1rem ;
+    padding: 0rem 1rem ;
 }
 .piani li{
     list-style: none;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem 0.5rem 1rem;
 
 }
 
 .gray {
     color: gray;
-    text-decoration: line-through;
-    padding-bottom: 4rem;  
+    
+    padding-bottom:  4rem;  
+    margin-left: 1rem;
 }
 
 .contenitore-lista{
     padding-bottom: 2rem;
+  
+   
+   
+}
+
+.border{
+    border-bottom: solid 1px #d3d3d4;
+    
+   
 }
 
 #bottone-lista{
    margin: 2rem;
-   height: 2rem;
-   width: 11rem;
+   height: 2.5rem;
+   width: 18rem;
 }
 .divisore-lista{
     display: inline-block;
     width: 2rem;
     padding-bottom: 2rem;
+    
+    
+    
+   
+}
+li strong{
+    padding-left: 1rem;
+}
+
+ 
+   .piani li a{
+    color:#3c3cf1;
+    padding-left: 0.3rem;
+   }
+.piani li{
+    display: flex;
+    flex-direction: row;
+}
+.piani li span{
+    display: block;
+    padding-right: 0.4rem;
 }
 
 li h4{
@@ -139,6 +203,7 @@ li h4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   
  }
  .contenitore-2{
     
@@ -147,14 +212,21 @@ li h4{
 
  }
  .contenitore-2 h2{
-    font-size: 2rem;
+    font-size: 3rem;
     padding-top: 4rem;
  }
  .tabella-2{
-  
-    border: solid #606060 1px;
-    margin-top: 1rem;
+     
+    border: solid #d3d3d4 1px;
+    margin-top: 4rem;
+    padding-bottom: 1.5rem;
+    
    
+ }
+ .tabella-2 span{
+    border-bottom: solid 1px #d3d3d4;
+    display: block;
+    padding: 0.5rem;
  }
  .tabella-2 p{
     text-align: center;
@@ -167,11 +239,12 @@ li h4{
  }
  .tabella-2 div button{
     margin: 1rem 1rem 0rem 0rem;
-    height: 2rem;
-    width: 12rem;
+    height: 2.5rem;
+    width: 15rem;
  }
  .tabella-2 ul{
     list-style: none;
+   
  }
  .tabella-2 li h3{
     
@@ -186,15 +259,16 @@ li h4{
     flex-direction: row;
     justify-content: space-between;
  }
- #img{
-    width: 20rem;
-    height: 20rem;
-    text-align: center;
+ .partner img{
+    width: 33rem;
+    height: 33rem;
+    
     padding-top: 4rem;
 
  }
  .partner div{
-   width: 25rem;
+   padding: 3rem 0rem 0rem 2rem;
+    width: 25rem;
    height: 25rem;
  }
  
@@ -207,12 +281,13 @@ li h4{
  
  .partner button{
 
-    width: 8rem;
-    height: 2rem;
+    width: 9rem;
+    height: 2.5rem;
     margin-top: 1rem;
  }
- .partner h2{
-    padding-bottom: 1rem;
+ .partner h3{
+    padding: 5rem 0rem 1rem 0rem;
+    font-size: 1.5rem;
  }
  .cards{
     display: flex;
