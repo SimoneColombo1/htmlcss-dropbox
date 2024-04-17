@@ -115,12 +115,15 @@ h1{
 .piani{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     border: #d3d3d4 solid 1px  ;
     margin-right: 4rem;
     width: 17rem;
     font-size: 0.9rem;
     padding-bottom: 4rem;
+    height: 70rem;
+    
+    
     
     
 
@@ -155,6 +158,7 @@ h1{
 
 .border{
     border-bottom: solid 1px #d3d3d4;
+    height: 2rem;
     
    
 }
@@ -293,15 +297,21 @@ li h4{
     display: flex;
     flex-direction: row;
     padding: 2rem;
+    justify-content: center;
 
  }
- 
- .cards span{
-    display: inline-block;
-    width: 10rem;
-    height: 10rem;
-    text-align: center;
-    padding: 2rem;
+ .cards div{
+   padding: 2rem;
+ }
+
+
+
+ .cards img{
+   
+    width: 21rem;
+    height: 19rem;
+    
+    padding: 3rem;
     
  }
  
@@ -311,9 +321,12 @@ li h4{
 
  .clienti h2{
     
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 2rem 0rem 2rem 0rem;
     
+ }
+ .clienti a{
+    color:#4847f2 ;
  }
 
 .contenitore-3{
@@ -324,60 +337,97 @@ flex-direction: row;
 }
  
 .green-box{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     color: white;
     background-color:#a2d39b ;
     border: solid 10px #d1e9cd ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+  .box img{
+    width: 8rem;
+    height: 4rem;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(1%) saturate(0%) hue-rotate(144deg) brightness(103%) contrast(102%);
+  }
 .brown-box{ 
-    height: 200px;
-    width: 200px;
+    display: flex;
+    height: 300px;
+    width: 300px;
     color: white;
     background-color:#61082b ;
-
+    justify-content: center;
+    align-items: center;
 }
+
+
+
 .blue-box{
    
-   
-    height: 200px;
-    width: 200px;
+   display: flex;
+    height: 300px;
+    width: 300px;
     background-color:#0093ce ;
+    justify-content: center;
+    align-items: center;
 }
+
+.box .blue-box img{
+    width: 9rem;
+    height: 2rem;
+  }
+
 .box{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .light-red-box{
-    height: 200px;
-    width: 200px;
+    display: flex;
+    height: 300px;
+    width: 300px;
     background-color:#ff1c1c ;
+    justify-content: center;
+    align-items: center;
 }
 
 .red-box{
-    height: 200px;
-    width: 200px;
+    display: flex;
+    height: 300px;
+    width: 300px;
     background-color: #d5001f;
+    justify-content: center;
+    align-items: center;
 }
 
 .dark-blue-box{
-    height: 200px;
-    width: 200px;
+    display: flex;
+    height: 300px;
+    width: 300px;
     background-color:#0d2481 ;
+    justify-content: center;
+    align-items: center;
 }
 
 .gray-box{
-    height: 200px;
-    width: 200px;
+    display: flex;
+    height: 300px;
+    width: 300px;
     background-color: #b4d0e7;
+    justify-content: center;
+    align-items: center;
 }
 
 .yellow-box{
-    height: 200px;
-    width: 200px;
+    display: flex;
+    height: 300px;
+    width: 300px;
     background-color: #ffd830;
+    justify-content: center;
+    align-items: center;
 }
 
 .paragrafo-box{
@@ -385,14 +435,14 @@ flex-direction: row;
     padding: 2rem;
     
 }
-.paragrafo-box h2{
-    font-size: 2rem;
-    padding-bottom: 1rem;
+.paragrafo-box img{
+    width: 12rem;
+    height: 5rem;
    
 }
 
   .paragrafo-box span{
-    display: inline-block;
+    display: block;
     width: 4rem;
     color: #e2e2e4;
 
@@ -403,7 +453,7 @@ flex-direction: row;
 
 
 .paragrafo-box p{
-    padding-top: 2rem;
+    padding: 3rem 0rem 2.7rem 0rem;
     font-size: 1.2rem;
 }
 
@@ -425,8 +475,8 @@ flex-direction: row;
   border: 0;
   background-color: #ffffff ;
   color: #24171c;
-  height: 2rem;
-  width: 10rem;
+  height: 2.5rem;
+  width: 20rem;
   margin: 3rem 3rem 3rem 0rem;
 }
 
@@ -451,9 +501,15 @@ flex-direction: row;
 }
 
 .faq p{
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     padding: 1rem 0rem 1rem 0rem;
 }
+
+.faq i{
+   padding-left: 18rem;
+   font-size: 0.8rem;
+}
+
 footer{
     background-color: black;
 }
